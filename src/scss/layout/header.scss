@@ -5,11 +5,16 @@ header{
   top: 0;
   left: 0;
   z-index: 10;
-  height: 5.5rem;
+  height: 5rem;
   width: 100vw;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   padding: 0 1.6rem;
+
+  a{gap: 1rem;}
+  .logo-img{width: 4rem;}
+  span{font-size: 2rem;}
+
 }
 

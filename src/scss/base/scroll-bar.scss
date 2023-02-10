@@ -1,9 +1,9 @@
 body::-webkit-scrollbar {
-  width: 1rem;
+  width: 0.8rem;
   background-color: var(--white);
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--gray);
-  border-radius: 1rem;
+  border-radius: 0.8rem;
 }
