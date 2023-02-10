@@ -1,0 +1,8 @@
+@use '../base' as *;
+
+.hr-container{
+  width: 100%;
+  padding: 0 2rem;
+  
+  hr{border: solid 1px var(--gray);}
+}
