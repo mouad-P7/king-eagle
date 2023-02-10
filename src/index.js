@@ -20,4 +20,8 @@ import './images/service1.jpg';
 // import './images/service3.jpg';
 // import './images/service4.jpg';
 // import './images/service5.jpg';
+import './images/desk-work.gif';
+import './images/storie.png';
+import './images/post.jpg';
+import './images/printout.jpg';
 

@@ -1,20 +1,21 @@
 @use '../base' as *;
 
-#services{
+#visual{
   padding: 2rem;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 6rem;
 
+  h1{width: 100%;}
+
   .service{
-    flex-basis: 20rem;
-    height: 28rem;
+    flex-basis: 12rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
-    padding-top: 3rem;
+    gap: 1rem;
   }
 }
