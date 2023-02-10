@@ -1,0 +1,11 @@
+:root{
+  --basic-font: 'Inter', sans-serif;
+  --cool-font: 'Pacifico', cursive;
+  --regular: 400;
+  --bold: 700;
+}
+
+*{
+  font-family: var(--basic-font);
+  font-weight: var(--regular);
+}

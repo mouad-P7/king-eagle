@@ -1,0 +1,15 @@
+@use '../base' as *;
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 5.5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 1.6rem;
+}
+

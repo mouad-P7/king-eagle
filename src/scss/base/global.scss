@@ -1,0 +1,67 @@
+@use './break-points.scss' as *;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+  color: var(--white);
+  transition: 0.3s ease;
+}
+
+html{font-size: 62.5%;}// 1rem = 10px
+
+a, a:visited, a:active{
+  text-decoration: none;
+  // padding: 0.2rem 0.4rem;
+  // margin: 0 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{list-style: none;}
+
+h1{
+  font-weight: var(--bold);
+  font-size: 4.5rem;
+  @include breakpoint-max-width(medium){font-size: 4.2rem;}
+}
+
+h2{
+  font-size: 4.5rem;  
+  font-family: var(--cool-font);
+  font-weight: var(--regular);
+  @include breakpoint-max-width(medium){font-size: 3.5rem;}
+}
+
+span{
+  color: var(--blue);
+  font-size: inherit;
+  font-weight: inherit;
+  @include breakpoint-max-width(medium){font-size: 1.8rem;}
+}
+
+p{
+  color: var(--gray);
+  font-size: 2rem;
+  @include breakpoint-max-width(medium){font-size: 1.8rem;}
+}
+
+button{border: none;}
+button:hover *{
+  cursor: pointer;
+}
+
+i{
+  // padding: 0 0.5rem;
+  font-size: 2.5rem;
+}
+
+.card{
+  border-radius: 1.5rem;
+  box-shadow: 0 0 2rem -1rem var(--gray);
+}
