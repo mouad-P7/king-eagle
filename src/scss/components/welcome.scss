@@ -1,0 +1,13 @@
+@use '../base' as *;
+
+#welcome{
+  height: 52rem;
+  gap: 2.5rem;
+
+  img{opacity: 0.3;}
+
+  h1, h2{text-transform: uppercase;}
+
+  h1{font-size: 7rem;}
+}
+
