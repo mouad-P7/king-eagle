@@ -14,4 +14,5 @@ import './images/affiche.jpg';
 import './images/charte.jpg';
 import './images/brochure.jpg';
 import './images/panneau.jpg';
+import './images/blue-bar.gif';
 
