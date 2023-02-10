@@ -15,4 +15,9 @@ import './images/charte.jpg';
 import './images/brochure.jpg';
 import './images/panneau.jpg';
 import './images/blue-bar.gif';
+import './images/service1.jpg';
+// import './images/service2.jpg';
+// import './images/service3.jpg';
+// import './images/service4.jpg';
+// import './images/service5.jpg';
 
