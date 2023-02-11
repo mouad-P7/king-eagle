@@ -10,7 +10,7 @@ footer{
 
   .information{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 4rem;
@@ -33,14 +33,11 @@ footer{
     }
     .contact-info{
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       gap: 4rem;
-      @include breakpoint-max-width(large){
-        justify-content: center;
-        gap: 1.5rem;
-      }
+      @include breakpoint-max-width(small){gap: 1.5rem;}
 
       .contact{
         display: flex;
@@ -50,7 +47,7 @@ footer{
       }
     }
   }
-  
+
   .instagram-icon, .whatsapp-icon{font-size: 4rem;}
 }
 
