@@ -50,11 +50,13 @@ footer{
       }
     }
   }
+  
+  .instagram-icon, .whatsapp-icon{font-size: 4rem;}
+}
 
-  .social-media{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
