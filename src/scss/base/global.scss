@@ -20,6 +20,7 @@ a, a:visited, a:active{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0.5rem;
 }
 
 ul{list-style: none;}
@@ -54,11 +55,12 @@ strong{font-weight: var(--bold);}
 button{border: none;}
 button:hover *{cursor: pointer;}
 
-i{font-size: 2.5rem;}
+i{font-size: 3rem;}
+.instagram-icon, .whatsapp-icon{font-size: 4rem;}
 
 .card{
   border-radius: 1.5rem;
-  box-shadow: 0 0 3rem -1rem var(--gray);
+  box-shadow: 0 0 4rem -1rem var(--gray);
 }
 
 .bg-img{

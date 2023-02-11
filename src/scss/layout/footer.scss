@@ -1,9 +1,60 @@
 @use '../base' as *;
 
 footer{
-  // height: 12rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 2rem;
+  padding: 5rem 0;
+
+  .information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+    .profil{
+      flex-basis: 18rem;
+      height: 18rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+
+      img{
+        border-radius: 50%;
+        flex-basis: 65%;
+      }
+
+      span{font-size: 1.8rem;}
+    }
+    .contact-info{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 4rem;
+      @include breakpoint-max-width(large){
+        justify-content: center;
+        gap: 1.5rem;
+      }
+
+      .contact{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+    }
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 }

@@ -24,4 +24,4 @@ import './images/desk-work.gif';
 import './images/storie.png';
 import './images/post.jpg';
 import './images/printout.jpg';
-
+import './images/personal-img.jpg';
