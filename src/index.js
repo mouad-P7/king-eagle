@@ -1,3 +1,6 @@
+// import js
+import './js/preloader';
+
 // import styles
 import './scss/style.scss';
 
@@ -25,3 +28,4 @@ import './images/storie.png';
 import './images/post.jpg';
 import './images/printout.jpg';
 import './images/personal-img.jpg';
+

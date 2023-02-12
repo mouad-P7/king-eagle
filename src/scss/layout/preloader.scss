@@ -1,0 +1,29 @@
+@use '../base' as *;
+
+.preloader{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+
+  .loader{
+    width: 10rem;
+    height: 10rem;
+    color: var(--white);
+    border: solid 0.3rem;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loading 1s linear infinite;
+  }
+
+  @keyframes loading{
+    to{transform: rotate(360deg);}
+  }
+}
