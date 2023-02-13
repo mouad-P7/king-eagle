@@ -51,7 +51,10 @@ p{
   line-height: 1.25;
 }
 
-strong{font-weight: var(--bold);}
+strong{
+  font-weight: var(--bold);
+  display: inline;
+}
 
 button{border: none;}
 button:hover *{cursor: pointer;}
