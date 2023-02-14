@@ -23,6 +23,7 @@ footer{
       justify-content: center;
       align-items: center;
       gap: 0.5rem;
+      @include breakpoint-max-width(small){width: 25rem;}
 
       img{
         border-radius: 50%;
@@ -47,6 +48,7 @@ footer{
         justify-content: flex-start;
         align-items: flex-start;
         gap: 1rem;
+        @include breakpoint-max-width(small){align-items: center;}
       }
     }
   }

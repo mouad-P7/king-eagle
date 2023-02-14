@@ -49,6 +49,7 @@ p{
   font-size: 2rem;
   font-weight: var(--regular);
   line-height: 1.25;
+  @include breakpoint-max-width(small){font-size: 1.7rem;}
 }
 
 strong{
