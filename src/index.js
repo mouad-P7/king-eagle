@@ -24,7 +24,7 @@ import './images/service3.jpg';
 import './images/service4.jpg';
 import './images/service5.jpg';
 import './images/desk-work.gif';
-import './images/storie.png';
+import './images/storie.jpg';
 import './images/post.jpg';
 import './images/printout.jpg';
 import './images/personal-img.jpg';
