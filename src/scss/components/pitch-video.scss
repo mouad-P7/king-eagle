@@ -1,0 +1,11 @@
+@use '../base' as *;
+
+#pitch-video{
+  gap: 2rem;
+
+  video{
+    border-radius: 1.5rem;
+    // max-width: 110rem;
+    @include breakpoint-min-width(xlarge){max-width: 110rem;}
+  }
+}

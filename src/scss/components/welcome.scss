@@ -1,17 +1,49 @@
 @use '../base' as *;
 
 #welcome{
-  height: 52rem;
-  justify-content: center;
+  position: relative;
+  height: 100vh;
+  justify-content: flex-start;
   gap: 2.5rem;
+  padding-top: 10rem;
+  @include breakpoint-max-width(small){height: 78vh;}
 
-  img{opacity: 0.8;}
+  img.portrait{
+    object-position: bottom;
+    @include breakpoint-max-width(small){object-fit: contain;}
+  }
 
-  h1, h2{text-transform: uppercase;}
+  h1{padding: 0 5rem;}
 
-  h1{
-    font-size: 7rem;
-    @include breakpoint-max-width(small){font-size: 4.5rem;}
+  p{
+    @include breakpoint-max-width(small){display: none;}
+  }
+
+  .side-img-wrapper{
+    position: absolute;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 1rem;
+    transform: rotateY(20deg);
+    @include breakpoint-max-width(large){display: none;}
+
+    .bg-img{opacity: 0.7;}
+  }
+  .side-img-1{
+    top: 22rem;
+    left: 4rem;
+  }
+  .side-img-2{
+    top: 48rem;
+    left: 4rem;
+  }
+  .side-img-3{
+    top: 22rem;
+    right: 4rem;
+  }
+  .side-img-4{
+    top: 48rem;
+    right: 4rem;
   }
 }
 

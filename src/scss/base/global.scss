@@ -32,11 +32,11 @@ h1{
 }
 
 h2{
-  font-size: 2.5rem;  
+  font-size: 3rem;  
   font-weight: var(--regular);
 }
 h3{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: var(--light);
 }
 
@@ -64,10 +64,10 @@ i{font-size: 3rem;}
 
 .card{
   border-radius: 1.5rem;
-  box-shadow: 0 0 4rem -1rem var(--gray);
+  box-shadow: 0 0 2rem -1rem var(--gray);
 }
 
-.bg-img{
+picture, .bg-img{
   position: absolute;
   top: 0;
   left: 0;
@@ -76,3 +76,43 @@ i{font-size: 3rem;}
   width: 100%;
 }
 
+.contact-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  h2{padding-bottom: 0.5rem;}
+}
+
+.magic{
+  display: inline-block;
+  position: relative;
+
+  // .magic-star{
+  //   --size: clamp(20px, 1.5vw, 30px);
+  //   display: block;
+  //   position: absolute;
+  //   width: var(--size);
+  //   height: var(--size);
+  //   left: var(--star-left);
+  //   top: var(--star-top);
+  //   animation: scale 700ms ease forwards;
+
+  //   svg{
+  //     display: block;
+  //     opacity: 0.7;
+  //     animation: rotate 1s linear infinite;
+
+  //     & > path{fill: var(--yellow);}
+  //   }
+  // }
+
+  .magic-text{
+    background-image: linear-gradient(to right, var(--yellow), #ffeeb0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: background-pan 5s linear infinite;
+  }
+}

@@ -18,7 +18,10 @@ header{
     width: 3rem;
     height: 3rem;
   }
-  span{font-size: 1.6rem;}
+  span{
+    font-size: 1.8rem;
+    font-weight: var(--regular);
+  }
 
 }
 
