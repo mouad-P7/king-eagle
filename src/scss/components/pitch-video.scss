@@ -5,7 +5,7 @@
 
   video{
     border-radius: 1.5rem;
-    // max-width: 110rem;
     @include breakpoint-min-width(xlarge){max-width: 110rem;}
+    @include breakpoint-max-width(small){padding: 0 1rem;} 
   }
 }

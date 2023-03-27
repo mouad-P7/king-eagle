@@ -13,37 +13,11 @@
     @include breakpoint-max-width(small){object-fit: contain;}
   }
 
-  h1{padding: 0 5rem;}
-
-  p{
-    @include breakpoint-max-width(small){display: none;}
+  h1{
+    padding: 0 5rem;
+    @include breakpoint-max-width(small){padding: 0;} 
   }
 
-  .side-img-wrapper{
-    position: absolute;
-    width: 17rem;
-    height: 17rem;
-    border-radius: 1rem;
-    transform: rotateY(20deg);
-    @include breakpoint-max-width(large){display: none;}
-
-    .bg-img{opacity: 0.7;}
-  }
-  .side-img-1{
-    top: 22rem;
-    left: 4rem;
-  }
-  .side-img-2{
-    top: 48rem;
-    left: 4rem;
-  }
-  .side-img-3{
-    top: 22rem;
-    right: 4rem;
-  }
-  .side-img-4{
-    top: 48rem;
-    right: 4rem;
-  }
+  p{@include breakpoint-max-width(small){display: none;}}
 }
 

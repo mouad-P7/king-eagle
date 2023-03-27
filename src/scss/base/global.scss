@@ -67,6 +67,13 @@ i{font-size: 3rem;}
   box-shadow: 0 0 2rem -1rem var(--gray);
 }
 
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 picture, .bg-img{
   position: absolute;
   top: 0;
@@ -80,7 +87,7 @@ picture, .bg-img{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 
   h2{padding-bottom: 0.5rem;}
 }
@@ -113,6 +120,6 @@ picture, .bg-img{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
-    animation: background-pan 5s linear infinite;
+    animation: background-pan 3.5s linear infinite;
   }
 }
