@@ -1,8 +1,9 @@
 @use '../base' as *;
 
 #reminder{
-  background: linear-gradient(202.89deg, #080827 -19.1%, #1b0620 91.1%);
+  background: linear-gradient(202deg, #080827 -19.1%, #1b0620 91%);
   padding-top: 5rem;
   padding-bottom: 5rem;
   gap: 2rem;
+  margin-top: -3.5rem;
 }

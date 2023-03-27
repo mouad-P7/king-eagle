@@ -25,6 +25,5 @@ import './images/carrefour.png';
 import './images/personal-img.jpg';
 
 // import videos
-import './videos/side-video-4.mp4';
 import './videos/pitch-video.mp4';
 
