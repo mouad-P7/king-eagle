@@ -96,30 +96,29 @@ picture, .bg-img{
   display: inline-block;
   position: relative;
 
-  // .magic-star{
-  //   --size: clamp(20px, 1.5vw, 30px);
-  //   display: block;
-  //   position: absolute;
-  //   width: var(--size);
-  //   height: var(--size);
-  //   left: var(--star-left);
-  //   top: var(--star-top);
-  //   animation: scale 700ms ease forwards;
-
-  //   svg{
-  //     display: block;
-  //     opacity: 0.7;
-  //     animation: rotate 1s linear infinite;
-
-  //     & > path{fill: var(--yellow);}
-  //   }
-  // }
-
   .magic-text{
     background-image: linear-gradient(to right, var(--yellow), #ffeeb0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
     animation: background-pan 3.5s linear infinite;
+  }
+}
+
+.signature{
+  display: block;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+
+  & *{
+    display: inline;
+    letter-spacing: 2px;
+    overflow: visible;
+  }
+
+  a{
+    display: unset;
+    font-weight: normal;
+    animation: color-fade 2s linear infinite;
   }
 }

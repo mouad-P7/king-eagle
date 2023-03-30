@@ -3,18 +3,13 @@
   to{background-position: -200%;}
 }
 
-// @keyframes scale{
-//   from{transform: scale(0);}
-//   50%{transform: scale(1);}
-//   to{transform: scale(0);}
-// }
-
-// @keyframes rotate{
-//   from{transform: rotate(0deg);}
-//   to{transform: rotate(180deg);}
-// }
-
 @keyframes rotate360{
   from{transform: perspective(100rem) rotateY(0deg);}
   to{transform: perspective(100rem) rotateY(360deg);}
+}
+
+@keyframes color-fade{
+  from{color: var(--white);}
+  50%{color: var(--blue);}
+  to{color: var(--white);}
 }
